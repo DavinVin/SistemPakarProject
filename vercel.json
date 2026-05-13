@@ -2,14 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "*.php",
+      "src": "index.php",
       "use": "@vercel/php"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/alquran.php"
     }
   ]
 }
